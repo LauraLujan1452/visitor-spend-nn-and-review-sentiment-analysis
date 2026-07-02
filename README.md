@@ -21,7 +21,7 @@ This project covers two independent machine learning problems: predicting how mu
 
 The neural network was chosen as the better model overall — it wins on R² and RMSE, while Random Forest only edges ahead slightly on MAE. The model explains about 58% of the variance in visitor spend; the remainder is likely driven by factors outside this dataset.
 
-![Training and validation loss over 200 epochs](Plots/training_validation_loss.png)
+![Training and validation loss over 200 epochs](plots/training_validation_loss.png)
 
 ## Part 2: Shopee Review Sentiment Analysis
 
@@ -39,9 +39,9 @@ The neural network was chosen as the better model overall — it wins on R² and
 | Negative  | 279              | 728                           |
 
 
-![Sentiment distribution based on raw star ratings](Plots/sentiment_by_star_rating.png)
+![Sentiment distribution based on raw star ratings](plots/sentiment_by_star_rating.png)
 
-![Sentiment distribution based on TextBlob text analysis](Plots/sentiment_by_textblob.png)
+![Sentiment distribution based on TextBlob text analysis](plots/sentiment_by_textblob.png)
 
 Star ratings alone overstate how positive customers actually are — nearly 1,000 reviews rated 4–5 stars contained language TextBlob scored as neutral or negative. This shows why relying on star ratings alone can hide dissatisfaction that only shows up in the review text itself.
 
